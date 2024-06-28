@@ -1,0 +1,82 @@
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Store</title>
+		<link rel="stylesheet" href="boton de favoritos que guardan los elementos (1).css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+			integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		
+
+		<div class="container">
+			<h1>Favoritos</h1>
+
+			<div class="container-products">
+				<div class="card-product">
+					<div class="container-img">
+						<img
+							src="casa lujosa.jpg"
+							alt="imagen Producto"
+						/>
+					</div>
+					<div class="content-card-product" data-product-id="1">
+						<h3>departamento de 3 pisos</h3>
+						<p>
+							departamento de interior grande
+						</p>
+						<div class="footer-card-product">
+							<span class="price">$79.99</span>
+
+							<div class="container-buttons-card">
+								<button class="favorite">
+									<i
+										class="fa-regular fa-heart"
+										id="favorite-regular"
+									></i>
+									<i
+									    
+										class="fa-solid fa-heart"
+										id="added-favorite"
+									></i>
+								</button>
+								
+							</div>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</div>
+
+
+		<footer>
+			<a href="#">Logo</a>
+
+
+			<div class="container-list-favorites">
+				<div class="header-favorite">
+					<h3>Mis Favoritos</h3>
+					<i class="fa-solid fa-xmark" id="btn-close"></i>
+				</div>
+				<hr />
+				<div class="list-favorites">
+					<div class="card-favorite">
+						<p class="title">Audífonos Bluetooth Pro</p>
+						<p>$150</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="seleccion de elementos favoritos.js"></script>
+	</body>
+</html>
